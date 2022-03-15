@@ -10,7 +10,7 @@ _3_3-float_types website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://Paskanas.github.io/4-yoga/
+Site published at: https://Paskanas.github.io/3_3-float_types/
 
 No Design.
 
