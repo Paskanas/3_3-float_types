@@ -5,12 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Floats</title>
+    <style>
+      div.leftBig {
+        float: left;
+        width: 98%;
+        background-color: blueviolet;
+        margin: 1%;
+      }
+
+      div.leftSmall {
+        float: left;
+        width: 30%;
+        background-color: rgb(28, 119, 89);
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;
+      }
+
+      div.rightSmall {
+        float: right;
+        width: 30%;
+        background-color: brown;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <main style="display: inline-block">
-      <div style="float: left; width: 30%"></div>
-      <div style="float: left; width: 30%"></div>
-      <div style="float: left; width: 30%"></div>
+    <main
+      style="
+        display: inline-block;
+        background-color: aqua;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        width: 80%;
+      "
+    >
+      <!-- left left left  -->
+      <div class="leftBig">
+        <div class="leftSmall">1</div>
+        <div class="leftSmall">2</div>
+        <div class="leftSmall">3</div>
+      </div>
+      <!-- left left right  -->
+      <div class="leftBig">
+        <div class="leftSmall">1</div>
+        <div class="leftSmall">2</div>
+        <div class="rightSmall">3</div>
+      </div>
+      <!-- left right right  -->
+      <div class="leftBig">
+        <div class="leftSmall">1</div>
+        <div class="rightSmall">2</div>
+        <div class="rightSmall">3</div>
+      </div>
+      <!-- left right left  -->
+      <div class="leftBig">
+        <div class="leftSmall">1</div>
+        <div class="rightSmall">2</div>
+        <div class="leftSmall">3</div>
+      </div>
+      <!-- right left right  -->
+      <div class="leftBig">
+        <div class="rightSmall">1</div>
+        <div class="leftSmall">2</div>
+        <div class="rightSmall">3</div>
+      </div>
+      <!-- right right left  -->
+      <div class="leftBig">
+        <div class="rightSmall">1</div>
+        <div class="rightSmall">2</div>
+        <div class="leftSmall">3</div>
+      </div>
     </main>
   </body>
 </html>
